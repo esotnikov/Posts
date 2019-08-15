@@ -1,0 +1,9 @@
+<div class="content">
+    <div>
+        <ul>
+          <li *ngFor="let post of postsArray; let i = index">
+            <app-post-item [post]="post"></app-post-item>
+          </li>
+        </ul>
+      </div>
+</div>
